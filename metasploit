@@ -1,0 +1,33 @@
+Le but de ce cours est d'apprendre à utiliser Metasploit pour détecter et exploiter une vulnérabilité sur une machine Windows, dans un environnement de test autorisé.
+Concrètement, tu vas apprendre à :
+1. Découvrir les machines présentes sur un réseau.
+2. Scanner les ports et identifier les services.
+3. Repérer une version vulnérable (BadBlue 2.7).
+4. Choisir un module d'exploitation dans Metasploit.
+5. Comprendre la différence entre Exploit et Payload.
+6. Obtenir une session Meterpreter sur Windows.
+7. Comprendre les privilèges utilisateur et administrateur (SYSTEM).
+
+Objectif final : comprendre comment un attaquant peut exploiter un logiciel vulnérable et pourquoi il est important de sécuriser les machines.
+Combien de machines virtuelles faut-il ?
+2 machines indispensables
+
+
+
+
+Machine 1 : Kali Linux
+Attaquant / Auditeur
+- Metasploit
+- Nmap
+- Netdiscover
+- IP : 172.16.189.151
+
+
+
+
+Machine 2 : Windows avec BadBlue
+Cible vulnérable
+- Windows
+- Serveur BadBlue 2.7
+- IP : 172.16.189.149
+- Port 80
